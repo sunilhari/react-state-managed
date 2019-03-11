@@ -1,0 +1,30 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.App .button {
+  font-size: 100px;
+  padding: 80px;
+}
+
+.button.inc {
+  margin-right: 10px;
+}
+.button.dec {
+  margin-left: 10px;
+}
+.controls .count {
+  text-align: center;
+  font-size: 100px;
+}
